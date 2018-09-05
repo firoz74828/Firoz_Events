@@ -1,0 +1,9 @@
+.navbar{
+    background : black;
+}
+
+ul.nav{
+    float : right;
+    margin-right : 5%;
+    color:blue;
+}
