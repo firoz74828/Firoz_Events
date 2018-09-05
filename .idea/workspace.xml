@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b4d19e1-1e1f-4056-8a85-5a947faa7ba0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Events/settings.py" afterPath="$PROJECT_DIR$/Events/settings.py" />
       <change beforePath="$PROJECT_DIR$/events_app/views.py" afterPath="$PROJECT_DIR$/events_app/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Events/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -59,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -94,9 +95,9 @@
         <option value="$PROJECT_DIR$/Events/urls.py" />
         <option value="$PROJECT_DIR$/events_app/urls.py" />
         <option value="$PROJECT_DIR$/events_app/models.py" />
-        <option value="$PROJECT_DIR$/Events/settings.py" />
         <option value="$PROJECT_DIR$/events_app/admin.py" />
         <option value="$PROJECT_DIR$/events_app/views.py" />
+        <option value="$PROJECT_DIR$/Events/settings.py" />
       </list>
     </option>
   </component>
@@ -210,7 +211,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -302,21 +305,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Events/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/events_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Events/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -75,28 +75,28 @@ WSGI_APPLICATION = 'Events.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
-
-#
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'd7nmagb1eskknf',
-#         'USER': 'fjvugrvnrfuobd',
-#         'PASSWORD': 'f50104843d37aa578705a31f7f50b34de2db48867c8decb77c8de7d7768f724f',
-#         'HOST': 'ec2-54-235-64-195.compute-1.amazonaws.com',
-#         'PORT': '5432',
-#         'URI' : 'postgres://fjvugrvnrfuobd:f50104843d37aa578705a31f7f50b34de2db48867c8decb77c8de7d7768f724f@ec2-54-235-64-195.compute-1.amazonaws.com:5432/d7nmagb1eskknf',
-#         'HEROKU CLI' : 'heroku pg:psql postgresql-graceful-39297 --app eventssites'
-#
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
+
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd56lu4b2pb844k',
+        'USER': 'yvpvbdzvhunsld',
+        'PASSWORD': 'a2afa32ad865be30027d1ef695cab49a16883d78f5c2db54635901659a15467c',
+        'HOST': 'ec2-50-17-194-186.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'URI' : 'postgres://yvpvbdzvhunsld:a2afa32ad865be30027d1ef695cab49a16883d78f5c2db54635901659a15467c@ec2-50-17-194-186.compute-1.amazonaws.com:5432/d56lu4b2pb844k',
+        'HEROKU CLI' : 'heroku pg:psql postgresql-fitted-21577 --app mycompanyevents'
+
+    }
+}
 
 
 
