@@ -14,5 +14,5 @@ class Event(models.Model):
     event_date = models.DateTimeField()
 
 
-    def __unicode__(self):
+    def __str__(self):
         return self.event_header
