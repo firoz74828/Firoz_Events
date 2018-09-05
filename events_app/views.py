@@ -7,4 +7,5 @@ from django.shortcuts import render
 class HomeView(View):
 
     def get(self, request, *args, **kwargs):
+        print("Test")
         return render(request, 'events_app/index.html')
